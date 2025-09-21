@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:symphony_music_app/features/playlist.dart';
+import 'package:symphony_music_app/features/favorite.dart';
 import 'package:symphony_music_app/features/search_screen.dart';
 import 'package:symphony_music_app/features/song.dart';
 import 'package:symphony_music_app/models/song.dart';
@@ -33,7 +33,7 @@ class _MainLayoutState extends State<MainLayout> {
                   case '/library':
                     return MaterialPageRoute(builder: (_) => LibraryScreen());
                   case '/playlist':
-                    return MaterialPageRoute(builder: (_) => PlaylistScreen());
+                    return MaterialPageRoute(builder: (_) => FavoriteScreen());
                   case '/search':
                     return MaterialPageRoute(builder: (_) => SearchScreen());
                   case '/song':

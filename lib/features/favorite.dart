@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class PlaylistScreen extends StatelessWidget {
+class FavoriteScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -8,7 +8,7 @@ class PlaylistScreen extends StatelessWidget {
       child: Align(
         alignment: Alignment.topLeft,
         child: Text(
-          'Playlist',
+          'Danh sách bài hát yêu thích',
           style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
         ),
       ),

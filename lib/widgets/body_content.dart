@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../features/example.dart';
 import '../features/search_screen.dart';
 import '../features/library.dart';
-import '../features/playlist.dart';
+import '../features/favorite.dart';
 
 class BodyContent extends StatelessWidget {
   final int currentIndex;
@@ -19,7 +19,7 @@ class BodyContent extends StatelessWidget {
       case 2:
         return LibraryScreen();
       case 3:
-        return PlaylistScreen();
+        return FavoriteScreen();
       default:
         return ExampleScreen();
     }

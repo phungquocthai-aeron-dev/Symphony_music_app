@@ -86,7 +86,7 @@ class ExampleScreen extends StatelessWidget {
                         children: [
                           Text(song.author),
                           Text(
-                            '${song.totalListens} listens',
+                            '${song.totalListens} lượt nghe',
                             style: TextStyle(
                               fontSize: 12,
                               color: Colors.grey[600],
