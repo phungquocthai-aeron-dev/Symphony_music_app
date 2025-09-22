@@ -31,7 +31,7 @@ class CustomAppBar extends StatelessWidget {
 
               // Tên app
               Text(
-                'Symphony',
+                'App music',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 24,
